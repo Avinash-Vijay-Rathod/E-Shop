@@ -16,10 +16,8 @@ on:
         description: Include  emojis
       environment:
         type: environment
-
 jobs:
   greet:
     runs-on: ubuntu-latest
-
     steps:
     - name: Send greeting
